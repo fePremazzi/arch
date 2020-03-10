@@ -6,7 +6,7 @@
     <!--- basic page needs
     ================================================== -->
     <meta charset="utf-8">
-    <title>Arch - Tudo sobre arquitetura de computadores</title>
+    <title>Referências - Arch</title>
     <meta name="description" content="">
     <meta name="author" content="">
 
@@ -36,7 +36,7 @@
 
     <!-- pageheader
     ================================================== -->
-    <section class="s-pageheader s-pageheader--home">
+    <div class="s-pageheader">
 
         <header class="header">
             <div class="header__content row">
@@ -113,88 +113,56 @@
             </div> <!-- header-content -->
         </header> <!-- header -->
 
+    </div> <!-- end s-pageheader -->
 
-        <div class="pageheader-content row">
-            <div class="col-full">
 
-                <div class="featured">
+    <!-- s-content
+    ================================================== -->
+    <section class="s-content s-content--narrow s-content--no-padding-bottom">
 
-                    <div class="featured__column featured__column--big">
-                        <div class="entry"
-                            style="background-image:url('images/thumbs/featured/featured-guitarman.jpg');">
+        <article class="row format-audio">
 
-                            <div class="entry__content">
-                                <span class="entry__category"><a href="#0">Music</a></span>
+            <div class="s-content__header col-full">
+                <h1 class="s-content__header-title">
+                    Referências
+                </h1><br>
+            </div> <!-- end s-content__header -->
+            <p>
+                <img src="images/thumbs/references/books.jpg" sizes="(max-width: 2000px) 100vw, 2000px" alt="books">
+            </p>
 
-                                <h1><a href="#0" title="">What Your Music Preference Says About You and Your
-                                        Personality.</a></h1>
+            <div class="col-full s-content__main">
 
-                                <div class="entry__info">
-                                    <a href="#0" class="entry__profile-pic">
-                                        <img class="avatar" src="images/avatars/user-03.jpg" alt="">
-                                    </a>
 
-                                    <ul class="entry__meta">
-                                        <li><a href="#0">John Doe</a></li>
-                                        <li>December 29, 2017</li>
-                                    </ul>
-                                </div>
-                            </div> <!-- end entry__content -->
+                <p>TANENBAUM, A. S. <b> Organização estruturada de computadores</b>.6. ed.São Paulo: Pearson,
+                    2013.(Acesso
+                    Virtual e Físico) <br>
+                    STALLINGS, W. <b>Arquitetura e organização de computadores</b>. 10. ed. São Paulo:Pearson, 2017.
+                    (Acesso Virtual e Físico) <br>
+                    DELGADO, J.; RIBERIO, C. <b>Arquitetura de computadores</b>.5. ed. Rio de Janeiro: LTC, 2017. <br>
 
-                        </div> <!-- end entry -->
-                    </div> <!-- end featured__big -->
+                    PATTERSON, D.; HENNESSY, J. L. <b>Organização e projetos de computadores: a Interface
+                        hardware/software</b>. 2. ed.Rio de Janeiro: Campus, 2003. <br>
+                    HENNESSY, J.; PATTERSON, D. <b>Arquitetura de computadores: uma abordagem quantitativa</b>. 3. ed.
+                    Rio de Janeiro:
+                    Campus, 2003. <br>
+                    CORRÊA, A. G. D. <b>Organização e arquitetura de computadores</b>. São Paulo: Pearson, 2016. <br>
+                    CAPRON, H. L.; JOHNSON, J. A. <b>Introdução à informática</b>. 8. ed. São Paulo: Person
+                    Education, 2013. (Acesso Virtual e Físico) <br>
+                    ZELENOVSKY, R. <b>PC: um guia prático de hardware e interfaceamento</b>. 3. ed. Rio de Janeiro: MZ,
+                    2002. <br>
 
-                    <div class="featured__column featured__column--small">
+                    VALIANTE FILHO, F. <b>Arquitetura de software</b>. Disponível em: <a
+                        href="http://prof.valiante.info/home">http://prof.valiante.info/home</a>. Acessado em 10 de
+                    Março de 2020. <br>
+                </p>
 
-                        <div class="entry" style="background-image:url('images/thumbs/featured/featured-watch.jpg');">
+            </div> <!-- end s-content__main -->
 
-                            <div class="entry__content">
-                                <span class="entry__category"><a href="#0">Management</a></span>
+        </article>
 
-                                <h1><a href="#0" title="">The Pomodoro Technique Really Works.</a></h1>
 
-                                <div class="entry__info">
-                                    <a href="#0" class="entry__profile-pic">
-                                        <img class="avatar" src="images/avatars/user-03.jpg" alt="">
-                                    </a>
-
-                                    <ul class="entry__meta">
-                                        <li><a href="#0">John Doe</a></li>
-                                        <li>December 27, 2017</li>
-                                    </ul>
-                                </div>
-                            </div> <!-- end entry__content -->
-
-                        </div> <!-- end entry -->
-
-                        <div class="entry" style="background-image:url('images/thumbs/featured/featured-beetle.jpg');">
-
-                            <div class="entry__content">
-                                <span class="entry__category"><a href="#0">LifeStyle</a></span>
-
-                                <h1><a href="#0" title="">Throwback To The Good Old Days.</a></h1>
-
-                                <div class="entry__info">
-                                    <a href="#0" class="entry__profile-pic">
-                                        <img class="avatar" src="images/avatars/user-03.jpg" alt="">
-                                    </a>
-
-                                    <ul class="entry__meta">
-                                        <li><a href="#0">John Doe</a></li>
-                                        <li>December 21, 2017</li>
-                                    </ul>
-                                </div>
-                            </div> <!-- end entry__content -->
-
-                        </div> <!-- end entry -->
-
-                    </div> <!-- end featured__small -->
-                </div> <!-- end featured -->
-
-            </div> <!-- end col-full -->
-        </div> <!-- end pageheader-content row -->
-
-    </section> <!-- end s-pageheader -->   
+    </section> <!-- s-content -->
 
 
     <!-- s-extra
@@ -279,9 +247,7 @@
             <div class="col-four md-six tab-full about">
                 <h3>Sobre Arch</h3>
 
-                <p>
-                    Site dedicado a dar uma orientaçao de estudos sobre a disciplina de arquitetura de software.
-                </p>
+                <p>Site dedicado a dar uma orientaçao de estudos sobre a disciplina de arquitetura de software. </p>
 
                 <ul class="about__social">
                     <li>
@@ -301,7 +267,8 @@
 
         </div> <!-- end row -->
 
-       
+
+
     </section> <!-- end s-extra -->
 
 
@@ -320,18 +287,19 @@
                         <li><a href="#0">Home</a></li>
                         <li><a href="#0">Aulas</a></li>
                         <li><a href="#0">Mídia</a></li>
-                        <li><a href="about.html">About</a></li>
+                        <li><a href="about.html">Sobre</a></li>
                     </ul>
 
                 </div> <!-- end s-footer__sitelinks -->
 
-                
+
 
                 <div class="col-five md-full end s-footer__subscribe">
 
                     <h4>Atualizações</h4>
 
-                    <p>Cadastre seu email em nosso site para que fiqeu sabendo sobre todas as novidades do nosso site.</p>
+                    <p>Cadastre seu email em nosso site para que fiqeu sabendo sobre todas as novidades do nosso site.
+                    </p>
 
                     <div class="subscribe-form">
                         <form id="mc-form" class="group" novalidate="true">
